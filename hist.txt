@@ -1,119 +1,3 @@
-    1  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
-    2  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
-    3  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
-    4  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
-    5  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/290724-ptm/AndreyLapko/290724-ptm/hw1/hw1.tar.gz
-    6  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/290724-ptm/AndreyLapko/290724-ptm/hw1/hw1.tar.gz
-    7  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/290724-ptm/AndreyLapko/290724-ptm/hw1/hw1.tar.gz .
-    8  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/290724-ptm/AndreyLapko/hw1/hw1.tar.gz
-    9  scp -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de:/opt/290724-ptm/AndreyLapko/hw1/hw1.tar.gz .
-   10  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
-   11  cd new_rep
-   12  mkdir my_new
-   13  cd my_new/
-   14  echo "# my_new" >> README.md
-   15  git init
-   16  git add README.md
-   17  git commit -m "first commit"
-   18  git branch -M main
-   19  git remote add origin https://github.com/AndreyLapko1/my_new.git
-   20  git push -u origin main
-   21  git init
-   22  git status
-   23  git add README.md
-   24  git branch -M main
-   25  git push -u origin main
-   26  git remote
-   27  ls -la
-   28  git push
-   29  git status
-   30  gid commit -m "1"
-   31  git commit -m "1"
-   32  git status
-   33  git push
-   34  git push --set-upstream origin main
-   35  git commit -m "Add .gitignore file"
-   36  cd ..
-   37  ls -la
-   38  ls
-   39  mk dir rep20_09
-   40  mkdir rep20_09
-   41  cd rep20_09/
-   42  git init
-   43  git push
-   44  git push -u 
-   45  git push -u origin
-   46  git push -u origin master
-   47  cat ./git/congig
-   48  git branch
-   49  cd
-   50  cd my_new/
-   51  [200~git add README.md~
-   52  git add README.md
-   53  git commit -m "first commit"
-   54  git config --global user.email "andreycgo765@gmail.com"
-   55  git config --global user.name "AndreyLapko1"
-   56  git commit -m "first commit"
-   57  git remote add origin https://github.com/AndreyLapko1/my_new.git
-   58  git push -u origin main
-   59  git checkout -b feature
-   60  echo "Hello" >> file.txt
-   61  gid add file.txt 
-   62  git  add file.txt 
-   63  gin commit -m "add file.txt"
-   64  git commit -m "add file.txt"
-   65  git status
-   66  git checkout main
-   67  ll
-   68  git merge feature
-   69  ls -l
-   70  cat file.txt 
-   71  git log
-   72  git log --oneline
-   73  git branch
-   74  git push 
-   75  git checkout feature 
-   76  git push -u origin feature 
-   77  git checkout -b newfeature
-   78  ls -la
-   79  echo "Hello_2" >> file.txt 
-   80  cat file.txt 
-   81  git status
-   82  git add file.txt 
-   83  git commit -m "Update file in newfeature branch"
-   84  git log --oneline
-   85  git chtckout main
-   86  git checkout main
-   87  echo "Hello_3" >> file.txt
-   88  git add file.txt 
-   89  git commit -m "Another update file in main branch"
-   90  git checkout newfeature 
-   91  git rebase main
-   92  git status
-   93  cat file.txt 
-   94  git add file.txt 
-   95  git rebase --continue
-   96  git log --oneline
-   97  git push -u origin newfeature
-   98  cd
-   99  mkdir hw
-  100  cd hw
-  101  git clone git@github.com:AndreyLapko1/homework.git
-  102  ls
-  103  cd homework/
-  104  l
-  105  ls
-  106  hit init
-  107  git init
-  108  ls
-  109  git add -m "Create rep"
-  110  git commit -m "Create rep"
-  111  cat README.md
-  112  > file.txt
-  113  git commit -m "Create rep + file.txt"
-  114  rm -rf file.txt 
-  115  nano .gitignore
-  116  ls -la
   117  checkout -b feature
   118  git checkout -b feature
   119  ls 
@@ -139,3 +23,8 @@
   139  git checkout main
   140  git merge feature 
   141  history >> hist.txt
+  142  git add hist.txt 
+  143  git commit -m "add his.txt "
+  144  git push
+  145  rm -rf hist.txt 
+  146  history | tail -30>> hist.txt
